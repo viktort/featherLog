@@ -1,6 +1,6 @@
 {
     "name":"feather",
-    "version":"0.0.2",
+    "version":"0.0.3",
     "keywords": ["logger", "lightweight", "Unix style logging", "info debug warn"],
     "engines": { "node": "*"},
     "main": "index",
@@ -8,9 +8,10 @@
     "time" : {
         "0.0.1" : "2011-10-29T19:27:53.354Z"
     },
-    "repository": { "type": "git", "url": "git@github.com:holidayextras/feather.git"},
+    "repository": { "type": "git", "url": "git@github.com:holidayextras/featherLog.git"},
     "dependencies":{
-        "datejs":"0.0.2"
+        "utest" : "0.0.6",
+        "utest" : "0.0.2"
     },
     "licenses": [
         {
