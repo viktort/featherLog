@@ -1,6 +1,8 @@
 #Feather 0.0.1
 
-* A light-weight logger facility, Feather integrates seamlessly with your codebase and has minimal overheads.
+A light-weight logger
+
+* Feather integrates seamlessly with your codebase and has minimal overheads.
 * Configurarly control what you log in dev and in production.
 * Why? because logs that are useful during development can be discarded in production.
 
