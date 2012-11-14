@@ -2,7 +2,7 @@
 
 * A light-weight logger facility, Feather integrates seamlessly with your codebase and has minimal overheads.
 * Configurarly control what you log in dev and in production.
-* Why? because ogs that are useful during development can be discarded in production.
+* Why? because logs that are useful during development can be discarded in production.
 
 It uses Unix log levels `[Emergency, Alert, Critical, Error, Warn, Notice, Info, Debug]`, and similarly to logging
 facilities like [syslog] (http://www.syslog.org/), Feather allows you to define the highest level to log up too.
@@ -85,12 +85,8 @@ use its default configuration file in feather/config/featherProperties.
 * Taking a look inside feather/config/featherProperties:
 
     `module.exports = {
-        "fileLocation": "logs/feather/",
-        "appName": "Feather",
-        "timestampFormat" : "ddd, dd MMM yyyy HH:mm:ss",
-        "dateFormat" : "yyyyMMdd",
-        "host" : '172.0.0.1',
-        "rootLevel" : "Info"
+       "timestampFormat" : "dddd, MMMM Do YYYY, h:mm:ss a",
+       "level" : "Info"
      }`
 
  This is a good example of the properties set. Whatever value the rootLevel node is set to then nothing below that
