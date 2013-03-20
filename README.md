@@ -2,7 +2,7 @@
 
 A light-weight logger
 
-Current version 0.0.4
+##Current version 0.0.4
 
     `npm install feather`
 
@@ -15,7 +15,7 @@ facilities like [syslog] (http://www.syslog.org/), Feather allows you to define 
 This avoids printing out debug logs in production, for example. Or if you want to discard both Info and Debug level logs
 you can. This is what loger can do for you.
 
-#Main step below
+##Main step below
 
 * Functions provided by feather are:
 
@@ -30,14 +30,14 @@ you can. This is what loger can do for you.
          logger.info('info message');
          logger.debug('data data');`
 
-#Run tests
+##Run tests
 
 Now you can run the tests. Chenge the rootLogger node in config/loggerProperties.js configuration and run the tests again.
 Have a play and feed back to me at <viktor.trako@holidayextras.com>.
 
     `$ node test/run.js                          // run tests`
 
-#Set up
+##Set up
 
 * Feather looks for a featherProperties.js in config directory in your app directory. If it cannot find one then it will
 use its default configuration file in feather/config/featherProperties.
@@ -53,3 +53,7 @@ use its default configuration file in feather/config/featherProperties.
  value will be loged. In the instance above where `[info]` is set, all log messages will be loged apart from `[debug]`
  messages. If `[warn]` is assigned to rootLevel then `[notice]`, `[info]`, and `[debug]` messages throughout your
  codebase will be ignored.
+ 
+ ## License
+
+Released fully under [MIT license] (http://viktort.mit-license.org)
