@@ -54,6 +54,6 @@ use its default configuration file in feather/config/featherProperties.
  messages. If `[warn]` is assigned to rootLevel then `[notice]`, `[info]`, and `[debug]` messages throughout your
  codebase will be ignored.
  
- ## License
+## License
 
 Released fully under [MIT license] (http://viktort.mit-license.org)
